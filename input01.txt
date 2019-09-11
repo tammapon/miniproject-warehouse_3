@@ -1,0 +1,98 @@
+Create Harbor “Mayom”
+Create Airport “Can order”
+Create Warehouse “Can order” (37.50, 100)
+Create Train_Station “Topas”
+Create Harbor “Perha ber”
+Create Warehouse “Van_ormer” (65, 2000)
+Create Warehouse “Nakon Create” (30, 500)
+Create Warehouse “Tatayoung” (50, 200)
+Create Train_Station “Wave”
+Create Warehouse “mokasak” (40, 500)
+Create Airport “suwannapoom”
+Create Train_Station “Huahin”
+Create Harbor “Gurana”
+Create Truck “Akata wind” (100, 1000)
+Create Warehouse “Vacanda” (25, 150)
+Create Warehouse “Ubume saku” (10, 200)
+Create Train_Station “Last vegas”
+Create Harbor “Maekhong”
+Create Truck “Adis” (1001.85, 1500.00)
+Create Warehouse “Naboo” (25.99, 100)
+Create Train_Station “Tomas”
+Create Airport “Whit City”
+Create Warehouse “Tatooine” (23.50, 200)
+Create Harbor “Gungan”
+Create Harbor “Mayom”
+Create Airport “Galactic City”
+Create Warehouse “Tundra” (0, 350)
+Create Harbor “Madone”
+Create Airport “Valor City”
+Create Train_Station “Color”
+Set_path Naboo Coruscant 60
+Set_path Naboo Tatooine 40
+Create Warehouse “Makok” (47, 175)
+Create Warehouse “Saha” (85, 425)
+Set_path Mayom Can order 15
+Set_path Can order Can order 20
+Set_path Can order Topas 35
+Set_path Can order Nakon Create 20
+Set_path Topas Van_ormer 15
+Set_path Van_ormer Mayom 24
+Set_path Van_ormer Tatayoung 17
+Set_path Mayom mokasak 40
+Set_path mokasak Wave 10
+Set_path Wave Maekhong 16
+Set_path Tatayoung Huahin 33
+Set_path Huahin Gungan 25
+Set_path Huahin Tatooine 10
+Set_path Tatooine Gurana 3
+Set_path Gurana Galactic City 27
+Set_path Nakon Create suwannapoom 13
+Set_path suwannapoom Tundra 7
+Set_path Nakon Create Vacanda 20
+Set_path Vacanda Naboo 30
+Set_path Naboo Perha ber 21
+Set_path Perha ber Tomas 9
+Set_path Ubume suku Gurana 9
+Set_path Gurana Last vegas 11
+Set_path Valor City Makok 7
+Set_path Makok Color 7
+Set_path Makok Madone 7
+Set_path Makok Saha 7
+Create_item “lightsaber” (10,40, 5)
+Create_item “sand” (30,100, 10)
+Create_item “Hippo” (5,100, 100)
+Create_item “Itim” (0,7, 1)
+Create_item “fox” (10,30, 15)
+Create_item “Vine” (40,70, 4)
+Create_item “bear” (20,25, 200)
+Create_item “Table” (0,100, 7)
+Create_item “Chair” (30,75, 2)
+Create_item “cheta” (40,55, 60)
+Create_item “Bird” (30,39, 12)
+Create_item “Apple” (5,100, 0.5)
+Create_item “Pen” (20,25, 6)
+Create_item “Box” (100,150, 0.2)
+Create_item “Bottle” (30,41, 1.5)
+Order 1:
+Import 10 sand from UK to Nakon Create
+Export 5 fox from Can order to China
+Import 3 Apple from China to Van_ormer
+Order 2:
+Import 100 Box from Argentina to Ubume suku
+Export 3 Bird from Ubume suku to Can order
+Import 3 Bird from Can order to USA
+Order 5:
+Import 1 bear from Can order to Van_ormer
+Import 10 Box from Can order to Hungary
+Import 10 Bird from China to Myanmar
+Import 5 sand from Italy to Galactic City
+Order 7:
+Import 100 Vine from Brazil to Van_ormer
+Import 10 cheta from India to mokasak
+Import 10 Bottle from Singapore to Can order
+Import 7 lightsaber from Gungan to Can order
+Order 8:
+Import 6 bear from Myanmar to Vacanda
+Export 5 Bottle from Can order to Galactic City
+Transfer 5 Bottle from Can order to Nakon Create

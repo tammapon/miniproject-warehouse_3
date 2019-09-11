@@ -1,0 +1,36 @@
+Create Airport “Galactic City”
+Create Harbor “Gungan”
+Create Warehouse “Naboo” (25, 100)
+Create Warehouse “Coruscant” (10, 1000)
+Create Warehouse “Tatooine” (50, 200)
+Create Truck “Ebon Hawk” (0, 1000)
+Create Truck “Falcon” (1001, 3000)
+Create Train_Station “Tomas”
+
+
+Set_path Naboo Coruscant 60
+Set_path Naboo Tatooine 40
+Set_path Naboo Galactic City 10
+Set_path gungan naboo 5
+Set_path Tomas GuNgan 77
+
+
+Create_item “lightsaber” (10,40, 5)
+Create_item “sand” (30,100, 10)
+Create_item “Hippo” (5,100, 86)
+Order 1:
+Import 3 lightSaber from InDia to naBoo
+Import 5 lightsaber from India to Tatooine
+Order 2:
+Import 100 sand from China to Coruscant
+Order 3:
+Import 500 Hippo from USA to Coruscant
+Order 4 :
+Transfer 2 lightsaber from Naboo to Coruscant
+Order 7 :
+Import 15 Hippo from Hong Kong to Tatooine
+Import 100 sand from India to Coruscant
+Order 66:
+Import 3 lightsaber from USA to Coruscant
+Transfer 2 lightsaber from Tatooine to Naboo
+Export 2 lightsaber from Tatooine to UK

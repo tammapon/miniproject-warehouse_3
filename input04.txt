@@ -1,0 +1,38 @@
+Create Harbor “H F”
+Create Harbor “H S”
+Create Harbor “H T”
+Create Airport “A F”
+Create Airport “A S”
+Create Airport “A T”
+Create Train_Station “T F”
+Create Train_Station “T S”
+Create Train_Station “T T”
+Create Warehouse “Wareboo” (99.9, 100)
+Create Warehouse “Wareboo city” (50, 1000)
+Create Warehouse “Wareboo city ty” (70, 200)
+Create Truck “Truc ka” (0, 1000)
+Create Truck “Truc kb” (1001, 3000)
+Set_path A F wareboo 10
+Set_path Wareboo H S 5
+Set_path H F H S 25
+Set_path wareboo City H F 60
+Set_path A S H S 10
+Set_path wareboo city ty A S 5
+Set_path H T wareboo city ty 30
+Set_path H T T F 20
+Set_path T S wareboo city ty 55
+Set_path T T T S 70
+Create_item “ore o” (10.6,70.6, 5)
+Create_item “Cook kie” (30,100, 10)
+Create_item “pee po” (5,100, 100)
+Order 1:
+Import 5 ore o from uk to wareboo city ty
+Import 10 cook kie from congo to Wareboo city
+Transfer 5 cook kie from Wareboo City to wareboo
+Order 2:
+Import 11 pee po from poland to wareboo city ty
+Import 2 cook kie from laos to wareboo
+Export 5 pee Po from wareboo city ty to ussr
+Order 3:
+Import 5 ore o from uk to wareboo city ty
+Import 20000 cook kie from laos to wareboo
